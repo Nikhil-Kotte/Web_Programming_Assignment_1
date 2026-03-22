@@ -4,45 +4,65 @@
   <course id="C101">
     <title>Computer Organisation and Architecture</title>
     <instructor>Rajesh Kumar</instructor>
+    <prerequisite>Digital Logic Design</prerequisite>
     <facultyQualification>PhD from IIT Madras, M.Tech from IIT Kanpur</facultyQualification>
     <journals international="14" national="9" />
     <price currency="INR">600</price>
     <duration unit="months">4</duration>
+    <rating>4.5</rating>
+    <level>Intermediate</level>
+    <focus>CPU and memory design</focus>
   </course>
 
   <course id="C102">
     <title>Database Management Systems</title>
     <instructor>Rajan Kapoor</instructor>
+    <prerequisite>Programming and Data Structures</prerequisite>
     <facultyQualification>PhD from IIT Bombay, M.Tech from IIT Delhi</facultyQualification>
     <journals international="18" national="11" />
     <price currency="INR">1000</price>
     <duration unit="months">4</duration>
+    <rating>4.8</rating>
+    <level>Intermediate</level>
+    <focus>SQL and schema design</focus>
   </course>
 
   <course id="C103">
     <title>Theory of Computation</title>
     <instructor>Rajesh Kumar</instructor>
+    <prerequisite>Discrete Structures and Algorithms</prerequisite>
     <facultyQualification>PhD from IIT Madras, M.Tech from IIT Kanpur</facultyQualification>
     <journals international="14" national="9" />
     <price currency="INR">800</price>
     <duration unit="months">4</duration>
+    <rating>4.3</rating>
+    <level>Advanced</level>
+    <focus>Automata and formal languages</focus>
   </course>
 
   <course id="C104">
     <title>Web Programming</title>
     <instructor>Raju</instructor>
+    <prerequisite>None</prerequisite>
     <facultyQualification>PhD from IIT Hyderabad, B.Tech from IIT Kanpur</facultyQualification>
     <journals international="10" national="7" />
     <price currency="INR">700</price>
     <duration unit="months">4</duration>
+    <rating>4.7</rating>
+    <level>Beginner</level>
+    <focus>HTML, CSS, and JavaScript</focus>
   </course>
 
   <course id="C105">
     <title>Probability and Statistics</title>
     <instructor>Ramesh Kandukuri</instructor>
+    <prerequisite>None</prerequisite>
     <facultyQualification>PhD from IIT Kharagpur, M.Sc from IIT Madras</facultyQualification>
     <journals international="12" national="8" />
     <price currency="INR">600</price>
     <duration unit="months">4</duration>
+    <rating>4.4</rating>
+    <level>Beginner to Intermediate</level>
+    <focus>Data analysis and probability models</focus>
   </course>
 </courses>
