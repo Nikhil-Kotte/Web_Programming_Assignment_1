@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CBIT E-Learning Platform: Discover high-quality computer science courses." />
+  <title>CBIT E-Learning Platform | Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">CBIT E-Learning Platform</a>
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="register-login.html">Register / Login</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <p class="kicker">Academic excellence for practical careers</p>
+      <h1>Welcome to the CBIT E-Learning Platform.</h1>
+      <p>
+        Build a strong foundation with industry-relevant courses in computer
+        science. Learn with structured curriculum, expert faculty, and clear
+        outcomes.
+      </p>
+      <img
+        class="home-hero-image"
+        src="Platform.jpg"
+        alt="Students learning together on an online education platform"
+        loading="lazy"
+      />
+      <a class="btn btn-primary" href="courses.html">Explore Courses</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" aria-labelledby="intro-heading">
+      <div class="section-heading">
+        <h2 id="intro-heading">Platform Introduction</h2>
+      </div>
+      <div class="intro-card">
+        <p>
+          CBIT E-Learning Platform offers structured, semester-style courses with
+          clear prerequisites, learning objectives, outcomes, and unit-wise
+          curriculum. Every course page includes complete details and direct
+          enrollment access.
+        </p>
+        <p>
+          Our platform is designed for students who want both conceptual depth
+          and practical implementation skills. Each course combines core theory,
+          guided examples, and application-focused exercises that help learners
+          build confidence for academic projects and technical interviews.
+        </p>
+        <p>
+          From Computer Organisation and DBMS to Web Programming and Statistics,
+          every module follows a clear progression model so students can track
+          what they learn every week and prepare effectively for examinations.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="highlights-heading">
+      <div class="section-heading">
+        <h2 id="highlights-heading">Why Learn With CBIT E-Learning</h2>
+      </div>
+
+      <div class="course-grid">
+        <article class="course-card">
+          <h3>Structured Curriculum</h3>
+          <p class="course-meta">Unit-wise syllabus with objectives and outcomes for every course.</p>
+          <p class="course-meta">Covers fundamentals, intermediate concepts, and exam-focused revision topics.</p>
+        </article>
+
+        <article class="course-card">
+          <h3>Experienced Faculty</h3>
+          <p class="course-meta">Courses are taught by qualified faculty with strong academic backgrounds.</p>
+          <p class="course-meta">Instructor profiles include publications and domain expertise details.</p>
+        </article>
+
+        <article class="course-card">
+          <h3>Career-Relevant Skills</h3>
+          <p class="course-meta">Hands-on topics aligned with software development and data careers.</p>
+          <p class="course-meta">Focus on problem-solving, implementation, and technical communication.</p>
+        </article>
+
+        <article class="course-card">
+          <h3>Simple Enrollment Flow</h3>
+          <p class="course-meta">Browse course details, compare pricing, and enroll directly in minutes.</p>
+          <p class="course-meta">Registration and login forms include built-in validation support.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="journey-heading">
+      <div class="section-heading">
+        <h2 id="journey-heading">Learning Journey</h2>
+      </div>
+
+      <div class="details-card">
+        <h3>How Your 4-Month Course Progresses</h3>
+        <ul>
+          <li><strong>Month 1:</strong> Core fundamentals, terminology, and conceptual base building.</li>
+          <li><strong>Month 2:</strong> Problem-solving practice with guided examples and weekly exercises.</li>
+          <li><strong>Month 3:</strong> Advanced units, scenario-based understanding, and mini assignments.</li>
+          <li><strong>Month 4:</strong> Revision, outcome mapping, mock assessments, and final readiness.</li>
+        </ul>
+
+        <h3>Student Support</h3>
+        <ul>
+          <li>Clear prerequisite guidance before enrollment.</li>
+          <li>Curriculum visibility before and after registration.</li>
+          <li>Easy inquiry form for course-specific questions.</li>
+          <li>Transparent pricing and duration information for all courses.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="section-heading">
+        <h2 id="contact-heading">Contact</h2>
+      </div>
+
+      <div class="contact-grid">
+        <article class="contact-info" aria-label="Contact information">
+          <h3>Contact Information</h3>
+          <p><strong>Address:</strong> 6-3-596/63/2, Naveen Nagar, Khairatabad, Hyderabad -500004</p>
+          <p><strong>Email:</strong> nikhilkotte24@gmail.com</p>
+          <p><strong>Phone:</strong> +91 9063201796</p>
+        </article>
+
+        <form class="form-card" id="contactForm" novalidate>
+          <h3>Inquiry Form</h3>
+
+          <label for="contactName">Name</label>
+          <input id="contactName" name="name" type="text" required />
+
+          <label for="contactEmail">Email</label>
+          <input id="contactEmail" name="email" type="email" required />
+
+          <label for="contactMessage">Message</label>
+          <textarea id="contactMessage" name="message" rows="5" required></textarea>
+
+          <button class="btn btn-secondary" type="submit">Send Inquiry</button>
+          <p class="form-message" id="contactMessageStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 CBIT E-Learning Platform. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

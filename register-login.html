@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CBIT E-Learning Platform registration and login page." />
+  <title>CBIT E-Learning Platform | Register / Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">CBIT E-Learning Platform</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="register-login.html" aria-current="page">Register / Login</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <p class="kicker">Secure access</p>
+      <h1>Register or login to continue your learning journey.</h1>
+      <p>Form validation is handled with JavaScript for better guidance.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" aria-labelledby="auth-heading">
+      <div class="section-heading">
+        <h2 id="auth-heading">Register / Login</h2>
+      </div>
+
+      <div class="auth-grid">
+        <form id="registerForm" class="form-card" novalidate>
+          <h3>Register</h3>
+
+          <label for="regName">Name</label>
+          <input id="regName" name="name" type="text" required />
+
+          <label for="regEmail">Email</label>
+          <input id="regEmail" name="email" type="email" required />
+
+          <label for="regPassword">Password</label>
+          <input id="regPassword" name="password" type="password" required />
+
+          <label for="regConfirmPassword">Confirm Password</label>
+          <input id="regConfirmPassword" name="confirmPassword" type="password" required />
+
+          <button class="btn btn-primary" type="submit">Submit</button>
+          <p class="form-message" id="registerMessage" aria-live="polite"></p>
+        </form>
+
+        <form id="loginForm" class="form-card" novalidate>
+          <h3>Login</h3>
+
+          <label for="loginName">Name</label>
+          <input id="loginName" name="name" type="text" required />
+
+          <label for="loginEmail">Email</label>
+          <input id="loginEmail" name="email" type="email" required />
+
+          <label for="loginPassword">Password</label>
+          <input id="loginPassword" name="password" type="password" required />
+
+          <button class="btn btn-primary" type="submit">Submit</button>
+          <p class="form-message" id="loginMessage" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 CBIT E-Learning Platform. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
