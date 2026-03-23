@@ -29,7 +29,7 @@
 
   <course id="C103">
     <title>Theory of Computation</title>
-    <instructor>Rajesh Kumar</instructor>
+    <instructor>Rakesh Sharma</instructor>
     <prerequisite>Discrete Structures and Algorithms</prerequisite>
     <facultyQualification>PhD from IIT Madras, M.Tech from IIT Kanpur</facultyQualification>
     <journals international="14" national="9" />
